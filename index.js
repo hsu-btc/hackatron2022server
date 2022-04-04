@@ -1,7 +1,7 @@
 // Require the framework and instantiate it
 const fastify = require('fastify')({ logger: true });
 const KEY =
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRmdmN0cGNyc3dmcmhpa2ZoZ212Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDU2OTM3MzUsImV4cCI6MTk2MTI2OTczNX0.OL9cXHn9DLplm61cQU5oGm0evNVY896bMaJZCqtsBcU';
+    '';
 const URL = 'https://tfvctpcrswfrhikfhgmv.supabase.co/';
 const UAParser = require('ua-parser-js');
 const { createClient } = require('@supabase/supabase-js');
